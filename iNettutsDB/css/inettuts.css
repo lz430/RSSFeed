@@ -1,0 +1,140 @@
+/* Reset */
+body,img,p,h1,h2,h3,h4,h5,h6,ul,ol {margin:0; padding:0; list-style:none; border:none;}
+/* End Reset */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
+body {font-size:0.8em; font-family: 'Open Sans Condensed', sans-serif;background: #fff;}
+
+/* Colors */
+.color-yellow {background:#f2bc00;}
+.color-red    {background:#dd0000;}
+.color-blue   {background:#3366ff;}
+.color-white  {background:#dfdfdf;}
+.color-orange {background:#f66e00;}
+.color-green  {background:#8dc100;}
+.color-black{background:#222;}
+.color-yellow h3,
+.color-white h3,
+.color-green h3	{color:#000;}
+.color-red h3,
+.color-blue h3,
+.color-orange h3, .color-black h3 {color:#FFF;}
+/* End Colors */
+
+/* Head section */
+#head {
+    height: 100px;
+    position:relative;
+    background: #A1A1A1;
+    box-shadow: 1px 1px 4px;
+}
+#head h2 {
+    font:normal 4em/1.2em 'Century Gothic';
+    color: #000;
+    text-align: center;
+    
+}
+#head #date{clear:both;margin:0 auto;width:100%;text-align:center;font-size: 2em;color:#000;}
+
+/* End Head Section */
+
+/* Columns section */
+#columns .column {
+    float: left;
+    width: 33.3%;
+		/* Min-height: */
+		min-height: 400px;
+		height: auto !important; 
+		height: 400px;
+}
+
+/* Column dividers (background-images) : */
+#columns #column1 .widget { margin: 10px; }
+#columns .widget:hover{box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);}
+#columns .widget:hover .widget-head{background:#d1d1d1;}
+#columns #column3 .widget { margin: 10px; }
+#columns .widget {
+    margin: 10px;
+    padding: 2px;
+    border:1px solid #DCDCDC;
+}
+#columns .widget .widget-head {
+    color: #000;
+    overflow: hidden;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background: #F5F5F5;
+}
+#columns .widget .widget-head h3 {
+    padding: 0 5px;
+    float: left;
+}
+#columns .widget .widget-content {
+    background: #fff;
+    padding: 0 5px;
+    color: #DDD;
+    -moz-border-radius-bottomleft: 2px;
+    -moz-border-radius-bottomright: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    -webkit-border-bottom-right-radius: 2px;
+    line-height: 1.2em;
+    overflow: hidden;
+}
+#columns .widget .widget-content p {
+    padding: 0.8em 0;
+    border-bottom: 1px solid #666;
+}
+#columns .widget .widget-content img {
+    float: right;
+    margin: 10px;
+    border: 1px solid #FFF;
+}
+#columns .widget .widget-content pre {
+    padding: 0.5em 5px;
+    color: #EEE;
+    font-size: 12px;
+}
+#columns .widget .widget-content ul {
+    padding: 5px 0 5px 20px;
+    list-style: disc;
+}
+#columns .widget .widget-content ul li {padding: 3px 0;}
+#columns .widget .widget-content ul.images {
+    padding: 7px 0 0 0;
+    list-style: none;
+    height: 1%;
+}
+#columns .widget .widget-content ul.images li {
+    display: inline;
+    float: left;
+}
+#columns .widget .widget-content ul.images img {
+    display: inline;
+    float: left;
+    margin: 0 0 7px 7px;
+}
+/* End Columns section */
+
+.wrapper{margin:2% 0;float:left;width:100%;}
+h1{padding:.5em;}
+h1 a{font-size:1em;text-decoration:none;text-align:center;color:#fff;display:block;text-shadow:2px 2px #8E4B0A;}
+.box{width:90%;float:left;margin:0.8%;}
+.box h2{clear:both;margin:.2em;}
+.box h2 a{text-decoration:none;font:normal .8em/1em 'Open Sans Condensed';padding:3px 3px 5px 3px;color:#000;margin-bottom:1em;}
+.box h2 a:hover{text-decoration: underline;}
+.box .posted{float:left;font-size:0.7em;    font-style: italic;margin: 0.4em;}
+.box p{float:left;clear:both;font-size: 0.8em;margin:.4em;}
+
+@media only screen and (max-device-width: 720px) {              
+.box h2 a{text-decoration:none;font-size:.8em;padding:3px 3px 5px 3px;background:#ccc;color:#333;text-shadow: 2px 2px #F2F2F2;line-height:1.3em;margin-bottom:1em;}
+.box .posted{display:none;}
+.box{border-bottom:1px inset#333;}
+.column h1 a{font-size:2em;text-decoration:none;text-align:center;color:#fff;display:block;text-shadow:2px 2px #8E4B0A;}
+}
+/* iPhone [portrait + landscape] */
+@media only screen and (max-device-width: 480px){
+.box .posted{display:none;}
+.box h2 a{text-decoration:none;font-size:1.5em;padding:3px 3px 5px 3px;background:#ccc;color:#333;text-shadow: 2px 2px #F2F2F2;line-height:1.3em;margin-bottom:1em;}
+.box p{float:left;clear:both;font-size: 1.3em;margin:.4em;}
+.box{border-bottom:1px inset#333;}
+}

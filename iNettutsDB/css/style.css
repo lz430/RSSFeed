@@ -1,0 +1,25 @@
+.wrapper{margin:2% 0;float:left;width:100%;}
+h1{padding:.5em;}
+h1 a{font-size:1em;text-decoration:none;text-align:center;color:#fff;display:block;text-shadow:2px 2px #8E4B0A;}
+.box{width:90%;float:left;margin:0.8%;}
+.box h2{clear:both;margin:.2em;}
+.box h2 a{text-decoration:none;font-size:.7em;padding:3px 3px 5px 3px;color:#000;line-height:1.3em;margin-bottom:1em;}
+.box .posted{float:left;font-size:0.7em;	font-style: italic;margin: 0.4em;}
+.box p{float:left;clear:both;font-size: 0.8em;margin:.4em;}
+
+.refresh{background: url(../img/refresh.png) no-repeat 0 0;width:24px;height:24px;display: block;}
+.widget-head .refresh{float: right;}
+
+@media only screen and (max-device-width: 720px) {				
+.box h2 a{text-decoration:none;font-size:1.3em;padding:3px 3px 5px 3px;background:#ccc;color:#333;text-shadow: 2px 2px #F2F2F2;line-height:1.3em;margin-bottom:1em;}
+.box .posted{display:none;}
+.box{border-bottom:1px inset#333;}
+.column h1 a{font-size:2em;text-decoration:none;text-align:center;color:#fff;display:block;text-shadow:2px 2px #8E4B0A;}
+}
+/* iPhone 4 [portrait + landscape] */
+@media only screen and (max-device-width: 480px){
+.box .posted{display:none;}
+.box h2 a{text-decoration:none;font-size:1.5em;padding:3px 3px 5px 3px;background:#ccc;color:#333;text-shadow: 2px 2px #F2F2F2;line-height:1.3em;margin-bottom:1em;}
+.box p{float:left;clear:both;font-size: 1.3em;margin:.4em;}
+.box{border-bottom:1px inset#333;}
+}
