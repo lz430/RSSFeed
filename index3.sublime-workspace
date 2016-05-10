@@ -1,0 +1,712 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"list-st",
+				"list-style-type"
+			],
+			[
+				"click",
+				"clickParent"
+			],
+			[
+				"dropdow",
+				"dropdown-toggle"
+			],
+			[
+				"packag",
+				"package-pricing"
+			],
+			[
+				"sticky",
+				"sticky-menu"
+			],
+			[
+				"footer",
+				"footer-widget"
+			],
+			[
+				"j",
+				"jQuery"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"sideba",
+				"sidebar_id"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"be",
+				"bebas_neueregular"
+			],
+			[
+				"top",
+				"top_level_cat"
+			],
+			[
+				"top_",
+				"top_cat_obj"
+			],
+			[
+				"pare",
+				"parent_category"
+			],
+			[
+				"cat",
+				"category"
+			],
+			[
+				"menu",
+				"menuCat"
+			],
+			[
+				"men",
+				"menuCat"
+			],
+			[
+				"get",
+				"getCat"
+			],
+			[
+				"single-",
+				"single-entry-content"
+			],
+			[
+				"banner",
+				"banner_small"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"list-s",
+				"list-style-type"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"membe",
+				"memberOf"
+			],
+			[
+				"mem",
+				"memberOf"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 81.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 60.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/2Web Sites/assist-wireless/portal/test-portal/login.php",
+		"/D/2Web Sites/assist-wireless/portal/themes/assist/css/bootstrap-responsive.css",
+		"/D/2Web Sites/assist-wireless/portal/themes/assist/portal/dashboard.php",
+		"/D/2Web Sites/assist-wireless/portal/.htaccess",
+		"/D/2Web Sites/wordpress/wordpress/wp-login.php",
+		"/D/2Web Sites/assist-wireless/portal/test-portal/xml_user_system/sftp-config.json",
+		"/D/2Web Sites/assist-wireless/portal/test-portal/xml_user_system/index.php",
+		"/D/2Web Sites/assist-wireless/portal/themes/sftp-config.json",
+		"/D/2Web Sites/assist-wireless/portal/themes/assistv2/functions.php",
+		"/D/2Web Sites/assist-wireless/portal/themes/assistv2/functions-enrollment.php",
+		"/D/2Web Sites/assist-wireless/portal/wp-config.php",
+		"/D/2Web Sites/assist-wireless/portal/localhost.sql",
+		"/D/2Web Sites/tweddle/twf/desktop1/sftp-config.json",
+		"/C/Users/Lenny/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/D/2Web Sites/assist-wireless/wp-config.php",
+		"/D/2Web Sites/tweddle/twf/desktop2/sftp-config.json",
+		"/D/2Web Sites/tweddle/twf/desktop2/index.html",
+		"/D/2Web Sites/tweddle/twf/desktop2/css/style.css",
+		"/D/2Web Sites/tweddle/index.html",
+		"/D/2Web Sites/tweddle/sftp-config.json",
+		"/D/2Web Sites/tweddle/desktop/css/style.css",
+		"/D/2Web Sites/tweddle/css/style.css",
+		"/D/2Web Sites/tweddle/js/main.js",
+		"/D/2Web Sites/tweddle/desktop/index.html",
+		"/D/2Web Sites/tweddle/original/css/style.css",
+		"/D/2Web Sites/tweddle/original/index.html",
+		"/D/2Web Sites/logo communications/quinn-law/sftp-config.json",
+		"/D/2Web Sites/logo communications/quinn-law/footer.php",
+		"/D/2Web Sites/logo communications/SlickNav-master/SlickNav-master/demo/index.html",
+		"/D/2Web Sites/logo communications/quinn-law/functions.php",
+		"/D/2Web Sites/logo communications/quinn-law/js/custom.js",
+		"/D/2Web Sites/logo communications/quinn-law/header.php",
+		"/D/2Web Sites/logo communications/quinn-law/style.css",
+		"/D/2Web Sites/Vivid Visual/wp/dt-the7-child/template-contact.php",
+		"/D/2Web Sites/Vivid Visual/wp/dt-the7-child/header-main.php",
+		"/D/2Web Sites/Vivid Visual/wp/dt-the7-child/template-new-home.php",
+		"/D/2Web Sites/Vivid Visual/wp/dt-the7-child/js/js.js",
+		"/D/2Web Sites/Vivid Visual/wp/dt-the7-child/style.css",
+		"/D/2Web Sites/Vivid Visual/wp/sftp-config.json",
+		"/D/2Web Sites/Vivid Visual/wp/dt-the7-child/header-single.php",
+		"/D/2Web Sites/Vivid Visual/wp/dt-the7-child/footer.php",
+		"/D/2Web Sites/projects/430clients.sublime-project",
+		"/D/2Web Sites/Vivid Visual/template-new-home.php",
+		"/D/2Web Sites/Vivid Visual/wp/dt-the7-child/functions.php",
+		"/D/2Web Sites/Vivid Visual/wp/dt-the7-child/css/sss.css",
+		"/C/1Web Sites/Vivid Visual/wp/dt-the7-child/functions.php",
+		"/C/1Web Sites/Vivid Visual/html/index.html",
+		"/C/1Web Sites/Vivid Visual/wp/dt-the7-child/template-new-home.php",
+		"/C/1Web Sites/Vivid Visual/wp/dt-the7-child/style.css",
+		"/C/1Web Sites/Vivid Visual/wp/dt-the7-child/header-main.php",
+		"/C/1Web Sites/Vivid Visual/wp/dt-the7-child/header-single.php",
+		"/C/1Web Sites/Vivid Visual/html/js/js.js",
+		"/C/1Web Sites/Vivid Visual/html/css/style.css",
+		"/C/1Web Sites/Vivid Visual/wp/dt-the7/header.php",
+		"/C/1Web Sites/Vivid Visual/wp/dt-the7/header-main.php",
+		"/C/1Web Sites/Vivid Visual/wp/sftp-config.json",
+		"/C/1Web Sites/scripps-test/test2.html",
+		"/C/1Web Sites/scripps-test/styles.less",
+		"/C/1Web Sites/scripps-test/index.html",
+		"/C/1Web Sites/Vivid Visual/Ftp lzakoor@vvsol.com.xml",
+		"/C/1Web Sites/430-old/BadGDFormMail/gdform_1272738729",
+		"/C/1Web Sites/wordpress-4.1.1/wordpress/wp-config.php",
+		"/C/1Web Sites/logo communications/fourmidable/wp-content/wp-content/themes/Fourmidable/header.php",
+		"/C/1Web Sites/logo communications/fourmidable/wp-content/wp-content/themes/Fourmidable/footer.php",
+		"/C/1Web Sites/logo communications/fourmidable/wp-content/wp-content/themes/Fourmidable/functions.php",
+		"/C/Users/jenny/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/jenny/AppData/Roaming/Sublime Text 2/Packages/Alignment/Default (Windows).sublime-keymap",
+		"/C/Users/jenny/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/1Web Sites/logo communications/fourmidable/wp-content/wp-content/themes/Fourmidable/sftp-config.json",
+		"/C/1Web Sites/logo communications/fourmidable/wp-content/wp-content/themes/Fourmidable/bootstrap.css",
+		"/C/1Web Sites/the memory room/wp_nuvo/framework/shortcodes/postcarousel/postcarousel.php",
+		"/C/1Web Sites/the memory room/wp_nuvo/framework/shortcodes/postcarousel/styles/style-2.php",
+		"/C/1Web Sites/the memory room/wp_nuvo/css/menu.css",
+		"/C/1Web Sites/the memory room/wp_nuvo/framework/templates/page/page.php",
+		"/C/1Web Sites/the memory room/wp_nuvo/home.php",
+		"/C/1Web Sites/the memory room/wp_nuvo/framework/headers/header-v1.php",
+		"/C/1Web Sites/the memory room/wp_nuvo/footer.php",
+		"/C/1Web Sites/the memory room/wp_nuvo/page.php",
+		"/C/1Web Sites/the memory room/wp_nuvo/style.css",
+		"/C/1Web Sites/the memory room/wp_nuvo/framework/headers/sticky-header.php",
+		"/C/1Web Sites/the memory room/wp_nuvo/functions.php",
+		"/C/1Web Sites/the memory room/wp_nuvo/framework/includes/dynamic_css.php",
+		"/C/1Web Sites/the memory room/wp_nuvo/header.php",
+		"/C/1Web Sites/diamedical/new/index.html",
+		"/C/1Web Sites/the memory room/wp_nuvo/css/buttons.css",
+		"/C/1Web Sites/the memory room/wp_nuvo/sftp-config.json",
+		"/C/1Web Sites/rssFeed/index2-bcbsm.html",
+		"/C/1Web Sites/rssFeed/css/inettuts.css",
+		"/C/1Web Sites/rssFeed/css/style.css",
+		"/C/1Web Sites/rssFeed/sftp-config.json",
+		"/C/1Web Sites/rssFeed/js/inettuts.js",
+		"/C/1Web Sites/rssFeed/index2.php",
+		"/C/1Web Sites/rssFeed/bootstrap/css/bootstrap.css",
+		"/C/1Web Sites/430 Designs/wp-content/sftp-config.json",
+		"/C/1Web Sites/430 Designs/wp-content/themes/Vertex/style.css",
+		"/C/1Web Sites/430 Designs/wp-content/Vertex/js/custom.js",
+		"/C/1Web Sites/430 Designs/wp-content/Vertex/style.css",
+		"/C/1Web Sites/wordpress/wp-config.php",
+		"/C/1Web Sites/430 Designs/wp-content/Vertex/sftp-config.json",
+		"/C/1Web Sites/430 Designs/wp-content/Vertex/js/theme-customizer.js",
+		"/C/1Web Sites/paperstreet/bootstrap-ultimate/style.css",
+		"/C/1Web Sites/paperstreet/bootstrap-ultimate/header.php",
+		"/C/1Web Sites/paperstreet/bootstrap-ultimate/child/default/styles.css",
+		"/C/1Web Sites/paperstreet/sftp-config.json",
+		"/C/1Web Sites/houseApp/sftp-config.json",
+		"/C/Users/jenny/AppData/Roaming/Sublime Text 2/Packages/SFTP/Default (Windows).sublime-keymap",
+		"/C/Users/jenny/AppData/Roaming/Sublime Text 2/Packages/SFTP/SFTP.sublime-settings",
+		"/C/1Web Sites/rssFeed/css/inettuts.js.css",
+		"/C/1Web Sites/rssFeed/bootstrap/css/bootstrap-theme.css",
+		"/C/1Web Sites/rssFeed/iNettutsDB/index.php",
+		"/C/1Web Sites/rssFeed/css/fancybox.css",
+		"/C/1Web Sites/rssFeed/index.php",
+		"/C/1Web Sites/houseApp/index.html",
+		"/C/1Web Sites/houseApp/apachot-jquery-virtual-tour-8dea9d1/demos/salleformation.html",
+		"/C/1Web Sites/minimalist/index.html",
+		"/C/1Web Sites/index.php",
+		"/C/1Web Sites/1.php",
+		"/C/1Web Sites/job-test/skeleton-child/style.css",
+		"/C/1Web Sites/job-test/skeleton-child/functions.php",
+		"/C/1Web Sites/job-test/skeleton/functions.php",
+		"/C/1Web Sites/job-test/skeleton/framework/php/PeTheme/PeThemeProject.php",
+		"/C/1Web Sites/job-test/skeleton/css/style.css",
+		"/C/1Web Sites/Carl/BorgWarner/BWv7/css/custom.css",
+		"/C/1Web Sites/Carl/BorgWarner/BWv7/index.html",
+		"/C/1Web Sites/Carl/BorgWarner/BWv7/test.html",
+		"/C/1Web Sites/heartaed/avisio/footer.php",
+		"/C/1Web Sites/heartaed/aventric/wp-config.php",
+		"/C/1Web Sites/heartaed/wp-config.php"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"D:\\2Web Sites\\logo communications\\quinn-law",
+			"D:\\2Web Sites\\Vivid Visual\\wp\\dt-the7",
+			"D:\\2Web Sites\\Vivid Visual",
+			"C:\\1Web Sites\\logo communications\\fourmidable\\wp-content\\wp-content\\themes\\Fourmidable",
+			"C:\\1Web Sites\\the memory room\\wp_nuvo",
+			"C:\\1Web Sites\\430 Designs\\wp-content\\Vertex",
+			"C:\\1Web Sites\\rssFeed\\css",
+			"C:\\1Web Sites\\rssFeed\\bootstrap",
+			"C:\\1Web Sites\\rssFeed\\bootstrap\\css",
+			"C:\\1Web Sites\\job-test\\skeleton",
+			"C:\\1Web Sites\\heartaed\\avisio",
+			"C:\\1Web Sites\\Little Italy BBQ",
+			"C:\\1Web Sites\\bcbsm\\knowledgepress",
+			"C:\\1Web Sites\\bcbsm",
+			"C:\\1Web Sites\\bcbsm\\knowledgepress",
+			"C:\\1Web Sites\\cyentist\\Pewin\\wp-content",
+			"C:\\1Web Sites\\cyentist\\Pewin\\wp-content\\themes",
+			"C:\\1Web Sites\\cyentist\\Pewin\\wp-admin",
+			"C:\\1Web Sites\\cyentist\\Pewin\\wp-content",
+			"C:\\1Web Sites\\cyentist\\Pewin",
+			"C:\\1Web Sites\\cyentist\\Pewin\\wp-content",
+			"C:\\1Web Sites\\themes\\creative10\\xiaothemes_creative",
+			"C:\\1Web Sites\\cyentist\\Pewin\\wp-content\\themes\\platformpro",
+			"C:\\1Web Sites\\beaconfoundation\\wp-content",
+			"C:\\1Web Sites\\Art Center",
+			"C:\\1Web Sites\\Carl\\BorgWarner\\HTML",
+			"C:\\1Web Sites\\cyentist\\Pewin\\wp-content\\themes\\platformpro",
+			"C:\\1Web Sites\\cyentist\\Pewin\\wp-content\\plugins",
+			"C:\\1Web Sites\\hunchfree\\Roeper\\wp-content\\themes",
+			"C:\\1Web Sites\\hunchfree\\EMU Blog\\wp-content\\themes\\EMU-Blog",
+			"C:\\1Web Sites\\Ervin\\ReWired Group\\wp-content\\themes",
+			"C:\\1Web Sites\\rssFeed\\iNettutsDB",
+			"C:\\1Web Sites\\430 Designs\\wp-content\\Vertex",
+			"C:\\1Web Sites\\rssFeed\\iNettutsDB",
+			"C:\\1Web Sites\\hunchfree\\Roeper\\wp-content\\themes\\roeper",
+			"C:\\1Web Sites\\cyentist\\rsvlaw",
+			"C:\\1Web Sites\\430 Designs\\wp-content\\Vertex",
+			"C:\\1Web Sites\\HeartAED\\store\\wp-content",
+			"C:\\1Web Sites\\hunchfree\\Roeper\\wp-content\\themes\\roeper",
+			"C:\\1Web Sites\\wordpress\\wp-admin",
+			"C:\\1Web Sites\\Ervin\\ReWired Group\\wp-content\\plugins\\flexi-quote-rotator",
+			"C:\\1Web Sites\\Ervin\\ReWired Group\\wp-content\\themes\\rewired",
+			"C:\\1Web Sites\\hunchfree\\Roeper\\wp-content\\themes\\yoko",
+			"C:\\1Web Sites\\Ervin\\ReWired Group\\wp-content\\themes\\rewired",
+			"C:\\1Web Sites\\cyentist\\Pewin\\wp-content\\plugins\\buddypress",
+			"C:\\1Web Sites\\HeartAED\\store\\wp-content\\themes\\avisio",
+			"C:\\1Web Sites\\cyentist\\Pewin\\wp-content\\plugins",
+			"C:\\1Web Sites\\cyentist\\Pewin\\wp-content\\plugins\\buddypress"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"memory_limit ",
+			"styles_scripts",
+			"assist_scripts_styles",
+			"assist-p",
+			"span12",
+			"12",
+			"^\\n",
+			"ap20150811",
+			"true",
+			"<div class=\"vid-item\" data-url=\"http://www.youtube.com/embed/ce6f02UiDDg?autoplay=0&showinfo=0&controls=1\" >\n              <div class=\"thumb\"><img src=\"http://img.youtube.com/vi/ce6f02UiDDg/0.jpg\"></div>\n              <div class=\"desc\">Getting Started</div>\n            </div>",
+			"%;",
+			"video-wrap",
+			"%;}\n",
+			"mobile-nav-trigger",
+			"nav",
+			"45deg",
+			"  -",
+			"90",
+			"4",
+			"3",
+			"div class=\"TouchNav\"",
+			"<li>",
+			"Li",
+			"li",
+			"$window.on('resize', function() {\n  //   if ($window.width() <= breakpoint) {\n  //     if ($navtrigger.is(':hidden')) {\n  //       $navtrigger.removeClass('active').show();\n  //               $navselect.removeClass('active').show();\n  //               $navselect2.removeClass('active').show();\n  //               $navselect3.removeClass('active').show();\n  //               $navselect4.removeClass('active').show();\n  //               $navselect5.removeClass('active').show();\n  //               $navselect6.removeClass('active').show();\n  //       $navul.hide();\n  //     }\n  //   } else {\n  //     if ($navtrigger.is(':visible')) {\n  //       $navtrigger.hide().removeClass('active');\n  //               $navselect.hide().removeClass('active');\n  //               $navselect2.hide().removeClass('active');\n  //               $navselect3.hide().removeClass('active');\n  //               $navselect4.hide().removeClass('active');\n  //               $navselect5.hide().removeClass('active');\n  //               $navselect6.hide().removeClass('active');\n  //       $navul.show();\n  //     }\n  //   }\n  // });",
+			"navtrigger",
+			".Left",
+			"Left",
+			"menuNav",
+			"LeftTouchNav",
+			"NavLine",
+			"  }",
+			"NavCopy",
+			"#NavLine",
+			"#NavCopy",
+			"#NavTitle",
+			"NavTitle",
+			"id",
+			"id=\"NavCopy\"",
+			"id",
+			"<hr /",
+			"!important",
+			"^\\n",
+			"3",
+			"6",
+			"col",
+			"12",
+			" )",
+			"get_template_directory_uri",
+			"^\\n",
+			"s.stegjs.info",
+			"^\\n",
+			"scroll down",
+			"#about",
+			"about",
+			"#slide2",
+			"Top Menu",
+			"3",
+			"name",
+			"form ",
+			"form",
+			"slide1",
+			"_4",
+			"_3",
+			"brand",
+			"30",
+			"alt=\"Vivid Visual Solutions\"",
+			"slider",
+			";}",
+			",",
+			"wp_enqueue_style",
+			"slide-control",
+			";}",
+			"%;}",
+			"slider",
+			"#slider",
+			"slide3",
+			"../../",
+			"/images/",
+			"..",
+			"src=\"images",
+			"^\\n",
+			"script",
+			"#mainNav ul li",
+			"sfHover",
+			"$",
+			"dropdown_search",
+			"background-color: #250B04;\n  color: #FFFFFF;\n  vertical-align: top;\n  border: 1px solid #88716D;\n  padding: 5px 10px; ",
+			".rwd-table",
+			"$",
+			"main-menu",
+			".navbar-brand",
+			"$",
+			"172px",
+			"navbar-toggle",
+			"toggle",
+			"navbar-toggle",
+			"function load_bootstrap(){\n  //   // wp_enqueue_script( 'boostrap-script', get_stylesheet_directory_uri() . '/js/bootstrap.min.js' );\n  //   // wp_enqueue_style( 'bootstrap-style', get_stylesheet_directory_uri() . '/bootstrap.css' );\n  // }\n  // add_action",
+			"bootstrap",
+			"wpbootstrap_scripts_with_jquery",
+			"style",
+			"script",
+			"12",
+			"row",
+			"12",
+			"container",
+			"0",
+			"a",
+			"^\\n",
+			"cs-carousel-post",
+			"48044",
+			"80",
+			"20",
+			"three_fourth",
+			"one_half",
+			"shortcodes",
+			"^\\n",
+			"id=\"primary",
+			"primary",
+			"^\\n",
+			"0px 10px 32px -15px",
+			"12",
+			"^\\n",
+			".header-v1 .btn-navbar.navbar-toggle",
+			"#menu{float:none;margin:0 auto;}",
+			"#menu",
+			"12",
+			"9"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			"../",
+			"../../images/",
+			"",
+			"src=\"http://vvsol.com/new/wp-content/themes/dt-the7-child/images",
+			"",
+			"glyphicon-fullscreen",
+			"class=\"col-md-4\"",
+			"aVW0rdP",
+			"avHearWp",
+			"378ac4",
+			"003d7e",
+			"003F7C",
+			"013E7F",
+			"#013E7F",
+			"003D7E",
+			"",
+			"target=\"_blank\"",
+			"",
+			"<?php the_permalink(); ?>",
+			"https",
+			"https://weworkremotely.com/categories/2/jobs.rss",
+			"class=\"",
+			"h1",
+			"",
+			"[cd_row][cd_column width=\"span12\"][cd_divider alignment=\"divider-center\" textheading=\"h4\"][/cd_divider][/cd_column][/cd_row]",
+			"",
+			"view <br> month",
+			"class=\"gray\"",
+			"view <br> month",
+			"span12",
+			"jQuery",
+			"url('../img/",
+			"fancybox fancybox.iframe",
+			"",
+			"target=\"_blank\" class=\"iframe\"",
+			"jQuery",
+			"",
+			"Calibri",
+			"",
+			"target=\"_blank\" class=\"modal\"",
+			"//echo '<div class=\"posted\">Posted on '.$date.'</div>';",
+			"",
+			"alignleft",
+			"",
+			"Nice to meet you!",
+			"",
+			"bebas_neueregular",
+			"http://new.therewiredgroup.com/",
+			"",
+			"is_category(array(",
+			"menuCat",
+			"",
+			"roeper",
+			"-- DROP TABLE",
+			"Montserrat",
+			"rewired",
+			"jQuery",
+			"Please check your email as there are additional steps to completing your membership"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index3.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/C/1Web Sites/projects/logo-comm-formidable.sublime-project"
+			],
+			[
+				"bu",
+				"/C/1Web Sites/projects/BurnsWilcox.sublime-project"
+			],
+			[
+				"hear",
+				"/C/1Web Sites/projects/heartaed.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 306.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

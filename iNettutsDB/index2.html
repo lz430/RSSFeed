@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Job Feed 2 - Javascript/JSON</title>
+</head>
+<body>
+    <div id="title"></div>
+    <div id="link"></div>
+    <div id="content"></div>
+
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+   $(function(){
+        url = 'http://jobs.37signals.com/categories/2/jobs.rss';
+        $.ajax({
+        type: "GET",
+        url: document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=1000&callback=?&q=' + encodeURIComponent(url),
+        dataType: 'json',
+        error: function(){
+            alert('Unable to load feed, Incorrect path or invalid feed');
+        },
+        success: function(xml){
+            values = xml.responseData.feed.entries;
+            // console.log(values);
+            $('#title').html(values[0]);
+        }
+    });
+    });
+</script>
+
+   
+</body>
+</html>
