@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -95,4 +96,103 @@
    <script src="js/backstretch.min.js"></script>
    <script src="js/main.js"></script>
   </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Smart Start</title>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+      
+      <!--
+      Copyright 2014 Nebez Briefkani
+      Licensed under the Apache License, Version 2.0 (the "License");
+      you may not use this file except in compliance with the License.
+      You may obtain a copy of the License at
+      http://www.apache.org/licenses/LICENSE-2.0
+      Unless required by applicable law or agreed to in writing, software
+      distributed under the License is distributed on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+      See the License for the specific language governing permissions and
+      limitations under the License.
+    -->
+    
+    <!-- meta tags -->
+      <meta name="description" content="Smart Start" />
+      <meta name="keywords" content="smart,start,smartstart,new,tab,browser,ie,chrome,ff,firefox,internet,explorer,nebez,briefkani,nebezb" />
+      <meta name="author" content="Nebez Briefkani" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+      <!-- Bootstrap -->
+      <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Styles -->
+      <!-- <link href="css/main.css" rel="stylesheet"> 
+      <link href="css/main.css" rel="stylesheet">-->
+      <link href="css/weather-icons.min.css" rel="stylesheet">
+      
+   </head>
+   <body>
+   <div class="container">
+      <div class="row">
+         <div class="lz-container">
+          <div id="greeting" data-tilecolor="#65b676" data-fullname="Lenny" class="colorable box col-lg-3 col-md-3 col-sm-6 col-xs-12" data-colorable="border-bottom-color">
+               <div class="content tab-content">
+                  <div class="tab-pane fade in active" id="greetingview">
+                     <h3 id="greet">Greeting...</h3><h2 id="name">Name...</h2>
+                  </div>
+                  <div class="tab-pane fade" id="greetingedit">
+                     <h2>Settings</h2>
+                     <br>
+                     <h4>Name</h4>
+                     <input id="greeting-fullname" type="text" class="form-control" placeholder="Your Name">
+                     <br>
+                     <button type="button" class="btn btn-info save">Save</button><button type="button" class="btn btn-default cancel">Discard</button>
+                  </div>
+               </div>
+               <div class="edit"><a href="#greetingedit" data-placement="left" data-title="Configure" data-toggle="tab"><img src="img/icon-edit.png" class="colorable" data-colorable="background-color" alt="Edit"></a></div>
+               <div class="clearfix"></div>
+            </div><!--end greeting-->
+            <div id="datetime" data-tilecolor="#e8c883" class="colorable box col-lg-3 col-md-3 col-sm-6 col-xs-12" data-colorable="">
+               <h2 id="time">Time...</h2><h4 id="date">Date...</h4>
+            </div>
+            <div id="weather" data-tilecolor="#76b7ee" data-location="Montreal,CA" data-units="metric" class="box col-lg-6 col-md-6 col-sm-6 col-xs-12">
+              <div class="edit"><a href="#weatheredit" data-placement="left" data-title="Configure" data-toggle="tab"><img src="img/icon-edit.png" class="colorable" data-colorable="background-color" alt="Edit"></a></div>
+                <div class="content tab-content">
+                  <div class="tab-pane fade active in col-lg-12 col-md-12 col-sm-12 col-xs-12" id="weatherview">
+                  <i class="wi col-lg-4 col-md-4 col-sm-12 col-xs-12" data-colorable="color" alt="Weather"></i>
+                  <h1 id="temperature" class="col-lg-4 col-md-4 col-sm-12 col-xs-12"></h1>
+                  <h3 id="condition" class="col-lg-4 col-md-4 col-sm-12 col-xs-12"></h3>
+                  </div>
+                 <div class="tab-pane fade" id="weatheredit">
+                    <h2>Settings</h2>
+                    <br>
+                    <h4>Location</h4>
+                    <input id="weather-location" type="text" class="form-control" placeholder="Location (City,Country)">
+                    <br>
+                    <h4>Units</h4>
+                    <select id="weather-units" class="form-control">
+                       <option value="metric">Celcius</option>
+                       <option value="imperial">Farenheit</option>
+                    </select>
+                    <br>
+                    <button type="button" class="btn btn-info save">Save</button><button type="button" class="btn btn-default cancel">Discard</button>
+                 </div>
+              </div> <!--end tab .content-tab-->
+            </div> <!--end weather-->
+         </div> <!-- end lz-container -->
+      </div><!-- End .row -->
+    </div> <!-- End container -->
+
+    
+
+   <!-- jQuery -->
+   <script src="js/jquery.js"></script>
+   <!-- Bootstrap -->
+   <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
+   <!-- Scripts -->
+   <script src="js/moment.min.js"></script>
+   <script src="js/b64.min.js"></script>
+   <script src="js/backstretch.min.js"></script>
+   <script src="js/main.js"></script>
+  </body>
+>>>>>>> 326e2a79f17e3b750e4692caacae63534ee35da1
 </html>

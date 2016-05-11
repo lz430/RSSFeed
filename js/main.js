@@ -25,7 +25,11 @@ I apologize for the mess, but I really hope you guys can do something awesome wi
 //On doc ready
 $(document).ready(function(){
   // Body background settings
+<<<<<<< HEAD
     $.backstretch(["img/bg-body1.jpg", "img/bg-body2.jpg", "img/bg-body3.jpg", "img/bg-body4.jpg"], {duration: 10000, fade: 750});
+=======
+    $.backstretch(["img/bg-body1.jpg", "img/bg-body2.jpg", "img/bg-body3.jpg", "img/bg-body4.jpg"], {duration: 5000, fade: 750});
+>>>>>>> 326e2a79f17e3b750e4692caacae63534ee35da1
 
    //Load up all our settings from localStorage for every box
    $(".box").each(function() {
@@ -345,7 +349,11 @@ function reColorTiles(){
          newcolor = $(this).parents(".box").attr("data-tilecolor");
       
       //apply it to the specified css style
+<<<<<<< HEAD
       // $(this).css($(this).attr("data-colorable"), newcolor);
+=======
+      $(this).css($(this).attr("data-colorable"), newcolor);
+>>>>>>> 326e2a79f17e3b750e4692caacae63534ee35da1
    });
 }
 
@@ -485,7 +493,11 @@ function getWeather(location,units){
    $("#weatherview .loader").show();
    
    //Go for it
+<<<<<<< HEAD
    var apiurl = "http://api.openweathermap.org/data/2.5/weather?q="+location+"&units="+units+"&callback=?&id=id=524901&APPID=e156dab66b6022fd5fba4ee038e479fa";
+=======
+   var apiurl = "http://api.openweathermap.org/data/2.5/weather?q="+location+"&units="+units+"&callback=?";
+>>>>>>> 326e2a79f17e3b750e4692caacae63534ee35da1
    var jqxhr = $.ajax({type: 'GET', url: apiurl, async: true, contentType: 'application/json', jsonpCallback: 'callbackweather', dataType: 'jsonp', cache: true })
       .done(function(json) {
          //We're good! return the temperature and conditions
@@ -496,7 +508,10 @@ function getWeather(location,units){
             temp += "f";
          
          var condition = "";
+<<<<<<< HEAD
          console.log(json.weather);
+=======
+>>>>>>> 326e2a79f17e3b750e4692caacae63534ee35da1
          for(var i=0; i<json.weather.length; i++){
             //Loop through all conditions and put them together
             var newcondition = parseWeatherCondition(json.weather[i].id);
